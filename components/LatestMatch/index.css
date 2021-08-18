@@ -1,0 +1,96 @@
+.latest-match-header {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  justify-content: center;
+  flex-grow: 0.5;
+  column-gap: 10px;
+}
+
+.latest-match-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+  padding: 25px;
+  flex-grow: 1;
+}
+
+.competing-team-logo {
+  width: 80px;
+  align-self: center;
+}
+
+@media screen and (min-width: 600px) {
+  .competing-team-logo {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .latest-match-footer {
+    align-items: flex-end;
+  }
+  .competing-team-logo {
+    width: 120px;
+  }
+}
+
+.latest-match-heading {
+  color: white;
+  font-size: 21px;
+}
+
+.latest-match-para {
+  font-size: 15px;
+  color: #a4a4a4;
+}
+
+.match-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.match-details-right {
+  display: flex;
+  justify-content: center;
+}
+
+.hr-element {
+  border: 1px solid #a4a4a4;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 750px) {
+  .latest-match-header {
+    max-width: 575px;
+    column-gap: 15px;
+  }
+  .latest-match-heading {
+    font-size: 24px;
+  }
+  .latest-match-para {
+    font-size: 17px;
+  }
+  .competing-team-logo {
+    width: 170px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .latest-match-header {
+    max-width: 635px;
+    column-gap: 20px;
+  }
+  .latest-match-heading {
+    font-size: 27px;
+  }
+  .latest-match-para {
+    font-size: 18px;
+  }
+  .competing-team-logo {
+    width: 200px;
+  }
+}

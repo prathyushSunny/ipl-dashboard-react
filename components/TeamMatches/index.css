@@ -1,0 +1,95 @@
+.team-matches-details-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  font-family: bree serif;
+}
+
+.csk {
+  background: linear-gradient(to bottom, #f7db00, #1e293b);
+}
+
+.srh {
+  background: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+
+.mi-dc {
+  background: linear-gradient(to top, #0f172a, #13418b);
+}
+
+.rcb-kxp {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.kkr {
+  background: linear-gradient(to bottom, #5755a7, #0f172a);
+}
+
+.rr {
+  background: linear-gradient(to bottom, #da237b, #13418b);
+}
+
+.team-banner {
+  width: 90%;
+  border-radius: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-width: 1110px;
+  box-shadow: 0px 0px 10px #222222;
+}
+
+.main-heading-team-name {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.latest-matches-txt {
+  color: white;
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+.latest-match-container {
+  background: #0f172a;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px #222222;
+  justify-content: center;
+  max-width: 950px;
+  margin-bottom: 40px;
+}
+
+.recent-matches-details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  column-gap: 25px;
+  margin-bottom: 50px;
+  max-width: 1400px;
+}
+
+@media screen and (min-width: 750px) {
+  .main-heading-team-name {
+    font-size: 40px;
+  }
+  .latest-matches-txt {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .latest-match-container {
+    max-width: 1000px;
+  }
+  .main-heading-team-name {
+    font-size: 50px;
+  }
+  .latest-matches-txt {
+    font-size: 35px;
+  }
+}
